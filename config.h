@@ -67,6 +67,7 @@ static const struct arg args[] = {
     /* function format          argument */
     {run_command, "^c#b16286^  [ : %s]  ", "sb-volume"},
     {run_command, "^c#d79921^  [ %s]  ", "sb-battery"},
+    {run_command, "^c#d79921^  [ %s]  ", "sb-lan"},
     {wifi_perc, "^c#b8bb26^  [: %s]  ", "wlan0"},
     {datetime, "^c#d5c4a1^  [ %s]  ", "%a %b %d %T"},
 };
